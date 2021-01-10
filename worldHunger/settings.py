@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = ')_)6mb6nwf8%$s8m3_k1sy&))p*+0$2h&zn)52sx5k0wnsjpie'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'worldhunger.herokuapp.com']
 
