@@ -17,8 +17,10 @@ from django.contrib import admin
 from django.urls import path
 from About import views
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home_view, name='homepage'),
-    path('AboutUs/', views.About_Us, name="About Us")
+    path('AboutUs/', views.About_Us, name="About Us"),
+    path('Donate/', views.donate, name="Donate")
 ]

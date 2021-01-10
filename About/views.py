@@ -9,3 +9,7 @@ def home_view(request):
 
 def About_Us(request):
     return render(request, 'AboutUs.html')
+
+
+def donate(request):
+    return render(request, 'donate.html')
