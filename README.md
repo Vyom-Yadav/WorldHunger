@@ -8,4 +8,6 @@ After that `python manage.py runserver`
 
 For Apple devices `python3 manage.py runserver`
 
-Wolla the wesite is visible on your loval desktop.
+Wolla the wesite is visible on your local desktop.
+
+Or simply visit https://vyom-yadav-worldhunger.zeet.app/
