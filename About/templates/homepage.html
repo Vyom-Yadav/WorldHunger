@@ -13,7 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<link rel="icon" href="https://i.pinimg.com/564x/db/b8/fd/dbb8fd656be5aa89ce164b5c75005d56.jpg">
+    <link rel="icon" href="https://i.pinimg.com/564x/db/b8/fd/dbb8fd656be5aa89ce164b5c75005d56.jpg">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -34,6 +34,7 @@
 
 
 
+
     </style>
 
 
@@ -41,6 +42,38 @@
     <link href="https://getbootstrap.com/docs/5.0/examples/carousel/carousel.css" rel="stylesheet">
 </head>
 <body>
+<script>
+  var div = document.createElement('div');
+  div.className = 'fb-customerchat';
+  div.setAttribute('page_id', '100241068628932');
+  div.setAttribute('ref', '');
+  document.body.appendChild(div);
+  window.fbMessengerPlugins = window.fbMessengerPlugins || {
+    init: function () {
+      FB.init({
+        appId            : '1678638095724206',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v8.0'
+      });
+    }, callable: []
+  };
+  window.fbAsyncInit = window.fbAsyncInit || function () {
+    window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+    window.fbMessengerPlugins.init();
+  };
+  setTimeout(function () {
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  }, 0);
+
+</script>
 
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -124,7 +157,8 @@
                             than any other nation on this earth, it is unthinkable that any child should go hungry.”
                             Sela
                             Ward</h1>
-                        <p><a class="btn btn-lg btn-primary" href="https://www.wfp.org/stories" role="button">Browse gallery</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="https://www.wfp.org/stories" role="button">Browse
+                            gallery</a></p>
                     </div>
                 </div>
             </div>
@@ -160,6 +194,7 @@
                     right: 70px;
                 }
 
+
                     </style>
                     <img class="moveimage"
                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/World_Food_Programme_Logo_Simple.svg/200px-World_Food_Programme_Logo_Simple.svg.png">
@@ -171,7 +206,8 @@
                 </svg>
 
                 <h2>World Food Programme</h2>
-                <p>We Are The World's Leading Humanitarian Organisation, Ending World Hunger. Your Donation Will Help To Build A World With Zero Hunger. Show Support & Donate Today. Donate Online.</p>
+                <p>We Are The World's Leading Humanitarian Organisation, Ending World Hunger. Your Donation Will Help To
+                    Build A World With Zero Hunger. Show Support & Donate Today. Donate Online.</p>
                 <p><a class="btn btn-secondary" href="https://www.wfp.org/" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
@@ -188,25 +224,28 @@
 
                 <h2>Action Against Hunger</h2>
                 <p>FOR FOOD. AGAINST HUNGER AND MALNUTRITION.
-FOR CLEAN WATER. AGAINST KILLER DISEASES.
-FOR FREEDOM FROM HUNGER. FOR EVERYONE. FOR GOOD.
+                    FOR CLEAN WATER. AGAINST KILLER DISEASES.
+                    FOR FREEDOM FROM HUNGER. FOR EVERYONE. FOR GOOD.
 
                 </p>
-                <p><a class="btn btn-secondary" href="https://www.actionagainsthunger.org/" role="button">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="https://www.actionagainsthunger.org/" role="button">View details
+                    &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                      xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
                      preserveAspectRatio="xMidYMid slice" focusable="false">
                     <img class="moveimage"
-                         src="https://pbs.twimg.com/profile_images/473455316688859136/-3ZUPld8_400x400.jpeg" height = "200" width="200">
+                         src="https://pbs.twimg.com/profile_images/473455316688859136/-3ZUPld8_400x400.jpeg"
+                         height="200" width="200">
                     <rect width="100%" height="100%" fill="#777"/>
                     <text x="50%" y="50%" fill="#777" dy=".3em"></text>
                 </svg>
 
                 <h2>Why Hunger</h2>
-                <p>We find solutions to hunger that transform and last. Our answer is to build power with grassroots initiatives that nourish people and enrich communities. Be a volunteer.</p>
-                <p><a class="btn btn-secondary" href="https://whyhunger.org/" role="button" >View details &raquo;</a></p>
+                <p>We find solutions to hunger that transform and last. Our answer is to build power with grassroots
+                    initiatives that nourish people and enrich communities. Be a volunteer.</p>
+                <p><a class="btn btn-secondary" href="https://whyhunger.org/" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -218,12 +257,18 @@ FOR FREEDOM FROM HUNGER. FOR EVERYONE. FOR GOOD.
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">UN agencies working for food security </h4>
-                <h2 class="featurette-heading">World Food Programme </h2><br><span
-                    class="text-muted"></span></h2>
-                <p class="lead">The World Food Programme (WFP), aims to bring food assistance to more than 80 million people in 80 countries and is continually responding to emergencies. But WFP also works to help prevent hunger in the future. They do this through programmes that use food to build assets, spread knowledge and nurture stronger, more dynamic communities. This helps communities become more food secure.</p>
+                    <h2 class="featurette-heading">World Food Programme </h2><br><span
+                            class="text-muted"></span></h2>
+                <p class="lead">The World Food Programme (WFP), aims to bring food assistance to more than 80 million
+                    people in 80 countries and is continually responding to emergencies. But WFP also works to help
+                    prevent hunger in the future. They do this through programmes that use food to build assets, spread
+                    knowledge and nurture stronger, more dynamic communities. This helps communities become more food
+                    secure.</p>
             </div>
             <div class="col-md-5">
-                <iframe width="470" height="266" src="https://www.youtube.com/embed/waBOB4Fjvh8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="470" height="266" src="https://www.youtube.com/embed/waBOB4Fjvh8" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
 
             </div>
         </div>
@@ -234,10 +279,16 @@ FOR FREEDOM FROM HUNGER. FOR EVERYONE. FOR GOOD.
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">World Bank <span
                         class="text-muted"></span></h2>
-                <p class="lead">Investment in agriculture and rural development to boost food production and nutrition is a priority for the World Bank Group. The World Bank Group works with partners to improve food security and build a food system that can feed everyone, everywhere, every day. Activities include encouraging climate-smart farming techniques and restoring degraded farmland, breeding more resilient and nutritious crops and improving storage and supply chains for reducing food losses.</p>
+                <p class="lead">Investment in agriculture and rural development to boost food production and nutrition
+                    is a priority for the World Bank Group. The World Bank Group works with partners to improve food
+                    security and build a food system that can feed everyone, everywhere, every day. Activities include
+                    encouraging climate-smart farming techniques and restoring degraded farmland, breeding more
+                    resilient and nutritious crops and improving storage and supply chains for reducing food losses.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <iframe width="470" height="266" src="https://www.youtube.com/embed/xTH4WjHJvXE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="470" height="266" src="https://www.youtube.com/embed/xTH4WjHJvXE" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
             </div>
         </div>
 
@@ -245,11 +296,21 @@ FOR FREEDOM FROM HUNGER. FOR EVERYONE. FOR GOOD.
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">The Food and Agriculture Organization <span class="text-muted">Checkmate.</span></h2>
-                <p class="lead">Achieving food security for all is at the heart of the efforts of the UN Food and Agriculture Organization (FAO). Its main purpose is to make sure people have regular access to enough high-quality food to lead active, healthy lives. Its three main goals: the eradication of hunger, food insecurity and malnutrition; the elimination of poverty and the driving forward of economic and social progress for all; and, the sustainable management and utilization of natural resources, including land, water, air, climate and genetic resources for the benefit of present and future generations. FAO also issues the food price index, which is a measure of the monthly change in international prices of a basket of food commodities.</p>
+                <h2 class="featurette-heading">The Food and Agriculture Organization <span
+                        class="text-muted">Checkmate.</span></h2>
+                <p class="lead">Achieving food security for all is at the heart of the efforts of the UN Food and
+                    Agriculture Organization (FAO). Its main purpose is to make sure people have regular access to
+                    enough high-quality food to lead active, healthy lives. Its three main goals: the eradication of
+                    hunger, food insecurity and malnutrition; the elimination of poverty and the driving forward of
+                    economic and social progress for all; and, the sustainable management and utilization of natural
+                    resources, including land, water, air, climate and genetic resources for the benefit of present and
+                    future generations. FAO also issues the food price index, which is a measure of the monthly change
+                    in international prices of a basket of food commodities.</p>
             </div>
             <div class="col-md-5">
-                <iframe width="470" height="266" src="https://www.youtube.com/embed/wYxMwaTB_AQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="470" height="266" src="https://www.youtube.com/embed/wYxMwaTB_AQ" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
 
             </div>
         </div>
