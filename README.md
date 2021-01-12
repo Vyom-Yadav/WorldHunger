@@ -8,7 +8,7 @@ After that `python manage.py runserver`
 
 For Apple devices `python3 manage.py runserver`
 
-Also trun the `DEBUG = True` if running on local.
+Also turn the `DEBUG = True` if running on local.
 
 Wolla the wesite is visible on your local desktop.
 
