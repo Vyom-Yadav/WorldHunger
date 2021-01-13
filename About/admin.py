@@ -1,5 +1,10 @@
 from django.contrib import admin
-from . models import Warehouse
+from . models import Warehouse_stock
 
-admin.site.register(Warehouse)
+
+class StockAdmin(admin.ModelAdmin):
+    list_display = ('name', 'weight', 'Time_duration')
+
+
+admin.site.register(Warehouse_stock, StockAdmin)
 
