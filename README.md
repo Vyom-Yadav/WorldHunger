@@ -14,4 +14,6 @@ Wolla the wesite is visible on your local desktop.
 
 Or simply visit https://vyom-yadav-worldhunger.zeet.app/
 
+Deployed on https://zeet.co/
+
 I made this website in just a few hours ( For some untold University Project ), will improve it in future :)
