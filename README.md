@@ -13,3 +13,5 @@ Also turn the `DEBUG = True` if running on local.
 Wolla the wesite is visible on your local desktop.
 
 Or simply visit https://vyom-yadav-worldhunger.zeet.app/
+
+I made this website in just a few hours ( For some untold University Project ), will improve it in future :)
